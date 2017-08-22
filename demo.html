@@ -1,0 +1,35 @@
+<html ng-app="myApp" ng-controller="GreetingController">
+<head>
+</head>
+<body>
+<input type="number" ng-model="x">
+<input type="number" ng-model="y">
+
+<button ng-click='mul()'>Multiple</button>
+<button ng-click='add()'>Add</button>
+<p ng-bind='z'></p>
+<script src="js/angular.min.js"></script>
+<script src="js/demo.js"></script>
+</body>
+<html>
+
+<!--<!doctype html>
+<html>
+<head>
+<script src="js/angular.min.js"></script>
+</head>
+<body>
+<div ng-controller="WelcomeController">
+  {{greeting}}
+</div>
+
+<script src="angular.js"></script>
+<script>
+  var app = angular.module('demo', [])
+  .controller('WelcomeController', function($scope) {
+      $scope.greeting = 'Welcome!';
+  });
+  angular.bootstrap(document, ['demo']);
+</script>
+</body>
+</html>-->
